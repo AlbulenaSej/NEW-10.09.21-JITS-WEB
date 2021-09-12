@@ -5,34 +5,22 @@
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
+<script type="text/javascript"src="../js/Home.js"></script>
 <title>JITS Nachtlieferservice</title>
 
 </head>
 <body>
+<jsp:useBean id="sb" class="jits.beans.StartseiteBean"
+		scope="session"></jsp:useBean>
+		
+<form action="../jsp/HomeAppl.jsp" method="get">
+
 
 <!-- HEADER -->
+<jsp:getProperty property="headerAsHtml" name="sb" />
 
 <!-- CONTENT -->
-	<aside class="seitenliste">
-		<button class="seitenliste-schließen-button" onclick="schließeMenue()">X</button>
-		<ul>
-			<li><a href="../jsp/HomeView.jsp">Home</a></li>
-			<li><a href="../jsp/PreislisteView.jsp">Preisliste</a></li>
-			<li><a href="../jsp/KontaktView.jsp">Kontakt</a></li>
-			<li><a href="/jsp/RechtstexteView.jsp">Rechtstexte</a></li>
-		</ul>
-		
-		</aside>
-		<div class="container">
-		<div class="navbar">
-			<nav>
-				<ul>
-					<li><a href="../jsp/LogInView.jsp">Log In</a></li>
-					<li><a href="Warenkorb.jsp">Warenkorb</a></li>
-				</ul>
-			</nav>
-		</div>
-		</div>
+	
 		<main class="main">
 		<img class="logo-image" src="../IMG/JITSLOGO.png" alt ="logo"/>
 		
@@ -42,36 +30,36 @@
 			<br>
 			<br>
 			JITS ist ein Nachtlieferservice, wir liefern dir Getränke, Snacks und bereits zusammengestellte Pakete direkt an die Haustür.  <br><br>
-			Klick auf eine Kategorie z.B "Softdrinks" m unsere Produkte zu sehen.<br><br> </p>
+			Klick auf eine Kategorie z.B "Softdrinks" um unsere Produkte sehen zu können.<br><br> </p>
 			
 		<div class="slides">
-			<a href="Pakete.jsp"><img class="mySlides"
+			<a href="PaketeView.jsp"><img class="mySlides"
 				src="../IMG/Paket1.jpg" height="800px" width="auto"> </a>
 			<div class="mySlides2">
-				<a href="Pakete.jsp">Frauenabend</a>
+				<a href="Paket1View.jsp">Mädelsabend</a>
 			</div>
-			<a href="Pakete.jsp"> <img class="mySlides"
+			<a href="PaketeView.jsp"> <img class="mySlides"
 				src="../IMG/Paket2.jpg" height="800x" width="auto"></a>
 			<div class="mySlides2">
-				<a href="Pakete.jsp">Männerabend</a>
+				<a href="Paket2View.jsp">Männerabend</a>
 			</div>
-			<a href="Pakete.jsp"><img class="mySlides"
+			<a href="PaketeView.jsp"><img class="mySlides"
 				src="../IMG/Paket3.jpg" height="800px" width="auto"></a>
 			<div class="mySlides2">
-				<a href="Pakete.jsp">Ruhige Nacht</a>
+				<a href="Paket3View.jsp">Netflix &amp Chill </a>
 			</div>
-			<a href="Pakete.jsp"><img class="mySlides"
+			<a href="PaketeView.jsp"><img class="mySlides"
 				src="../IMG/Paket4.jpg" height="800px" width="auto"></a>
 			<div class="mySlides2">
-				<a href="Pakete.jsp">Party</a>
+				<a href="Paket4View.jsp">Party</a>
 			</div>
 		</div>
 	</div>
-	<h4>Unsere Spezial Paket Angebote</h4>
+	<h2><a href="PaketeView.jsp">Unsere Spezial Pakete</a></h2>
 	<div class=line>
-			<a href="Paket1.jsp"><img class="myLine" src="../IMG/Jack-Daniels-Old-No.-7-Tennessee-Whiskey.jpg" height="150px" width="auto"> </a>
+			<a href="AlkoholView.jsp"><img class="myLine" src="../IMG/Jack-Daniels-Old-No.-7-Tennessee-Whiskey.jpg" height="150px" width="auto"> </a>
 			<div class="myLine2">
-				<a href="Paket1.jsp">Alkohol</a>
+				<a href="AlkoholView.jsp">Alkohol</a>
 			</div>
 			<a href="BierundWeinView.jsp"> <img class="myLine" src="../IMG/Rothaus Pils.jpg" height="150x" width="auto"></a>
 			<div class="myLine2">
@@ -125,9 +113,11 @@
 				setTimeout(carousel2, 5000);
 			}
 		</script>
-		</div>
+
+
 
 <!-- FOOTER -->
-
+		<jsp:getProperty property="startFooterAsHtml" name="sb" />
+</form>
 </body>
 </html>

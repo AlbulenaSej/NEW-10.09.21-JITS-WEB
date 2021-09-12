@@ -8,24 +8,48 @@
 <title>Alkoholische Getränke</title>
 </head>
 <body>
+
 <jsp:useBean id="sb" class="jits.beans.StartseiteBean"
 		scope="session"></jsp:useBean>
 <!-- HEADER -->
 <jsp:getProperty property="headerAsHtml" name="sb" />
 
 <!-- CONTENT -->
-
-	<main class="main">
+<main class="main">
 		<a href="HomeView.jsp"><img class="logo-image" src="../IMG/JITSLOGO.png" alt ="logo"></a><br> <br>
-		<h2>Alkoholische Getr&aumlnke</h2>
-		<div class= line>
-			<a href="AbsolitVodkaView.jsp"><img class="myLine" src="../IMG/Absolut-Vodka-07L-600x600.jpg" height="300px" width="auto"> </a>
-			<div class="myLine2">
-				<a href="AbsolitVodkaView.jsp">Absolut Vodka 0,7L</a>
-			<div class="produkt-marke">Alkohol</div>
-					<div class="produkt-preis">21,99 Euro</div>
-				</div>
-					
+	<main class="main">
+			<div class="content">
+			<h2>Captain Morgen</h2> <br> <br>
+			<ul class="produkte">
+				<li>
+					<div class="produkt">
+						<img class="produkt-image" src="../IMG/Captain-Morgan-Gold-Spiced-07L-Tesxtur-300x300.jpg" height="800px" width="auto" alt ="Alkohol"/>
+					<div class="produkt-name">
+					<a href="produkt.html">Captain Morgen 0,7L (35% Vol.) </a>
+					</div>
+					<div class="produkt-marke">Alkohol</div>
+					<div class="produkt-preis">17,99 Euro</div>
+					</div>
+			</ul>
+			</div>
+	</main>
+		<h4>Beschreibeung</h4><br>
+		<p> Vor all den Jahren war es trockene Arbeit für den Captain auf den sieben Meeren: 
+		Er und seine bunte Truppe verwegener Freibeuter schufen die Galionsfigur der Flotte des Captains und der Original Spiced Gold war geboren. 
+		Und seitdem haben der Captain und seine Crew nie wieder zurückgeschaut. <br>
+		
+		ALLERGENE: Farbstoffe<br><br>
+
+		Kategorie: Rum<br>
+		Gebindegröße: 0,7-l-Flasche<br>
+		Alkoholgehalt: 35 % vol.
+
+		<br><br><br>
+		</p>
+		
+	<h1>Ähnliche Produkte</h1>
+			<div class= line>
+	
 			<a href="BaileysView.jsp"> <img class="myLine" src="../IMG/Baileys.jpg" height="300x" width="auto"></a>
 			<div class="myLine2">
 					<a href="BaileysView.jsp">Baileys - Original 0,7L</a>
@@ -120,5 +144,6 @@
 	</main>
 <!-- FOOTER -->
 		<jsp:getProperty property="startFooterAsHtml" name="sb" />
+
 </body>
 </html>

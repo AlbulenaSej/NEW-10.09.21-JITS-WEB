@@ -13,6 +13,24 @@ body{
 	background-color: black;
 	
 }
+h1 {
+	color: #ffffff;
+	display: flex;
+	justify-content: left; 
+	align-items: left;
+	margin : .5rem;
+	height: 3rem; 
+	
+}
+h5{
+	color: #ffffff;
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	border-top: .2rem #ff5b5b solid;
+	margin : .5rem;
+	height: 3rem; 
+}
 
 h3{
 	color: #ffffff;
@@ -28,7 +46,6 @@ h2{
 	display: flex;
 	justify-content: center; 
 	align-items: center;
-	border-top: .2rem #ff5b5b solid;
 	border-bottom: .2rem #ff5b5b solid;
 	margin : .5rem;
 	height: 3rem; 
@@ -42,7 +59,6 @@ h4{
 	display: flex;
 	justify-content: center; 
 	align-items: center;
-	border-bottom: .2rem #ff5b5b solid;
 	margin : .5rem;
 	height: 3rem; 
 	background: none repeat scroll 0 0 #000000;
@@ -81,7 +97,7 @@ p{
 	color: #ffffff;
 	display: flex;
 	justify-content: space-between; 
-	align-items: center;
+	align-items: right;
 	padding: 1rem; /*ODER 0.5???*/
 }
 .brand a{
@@ -103,6 +119,7 @@ p{
 	color: #ff5b5b; 
 	text-decoration: none; 
 	padding: 1rem; 
+	align-items: right;
 }
 
 .header-links a:hover{

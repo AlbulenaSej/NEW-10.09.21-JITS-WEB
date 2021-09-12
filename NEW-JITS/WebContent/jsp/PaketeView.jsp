@@ -8,57 +8,46 @@
 <title>Pakete</title>
 </head>
 <body>
-	<aside class="seitenliste">
-		<button class="seitenliste-schließen-button" onclick="schließeMenue()">X</button>
-		<ul>
-			<li><a href="../jsp/HomeView.jsp">Home</a></li>
-			<li><a href="../jsp/PreislisteView.jsp">Preisliste</a></li>
-			<li><a href="../jsp/KontaktView.jsp">Kontakt</a></li>
-			<li><a href="/jsp/RechtstexteView.jsp">Rechtstexte</a></li>
-		</ul>
+<jsp:useBean id="sb" class="jits.beans.StartseiteBean"
+		scope="session"></jsp:useBean>
 		
-		</aside>
-		<div class="container">
-		<div class="navbar">
-			<nav>
-				<ul>
-					<li><a href="../jsp/LogInView.jsp">Log In</a></li>
-					<li><a href="Warenkorb.jsp">Warenkorb</a></li>
-				</ul>
-			</nav>
-		</div>
-		</div>
-	
+	<!-- HEADER -->
+<jsp:getProperty property="headerAsHtml" name="sb" />
+
+	<!-- CONTENT -->
 		<main class="main">
-		<img class="logo-image" src="../IMG/JITSLOGO.png" alt ="logo"/><br><br>
-		<h4>Fertiggestellte Pakete</h4>
+		<a href="HomeView.jsp"><img class="logo-image" src="../IMG/JITSLOGO.png" alt ="logo"></a><br> <br>
+		<h2>Fertiggestellte Pakete</h2>
 		<div class= line>
-			<a href="Paket1.jsp"><img class="myLine" src="../IMG/Paket1.jpg" height="300px" width="auto"> </a>
+			<a href="Paket1View.jsp"><img class="myLine" src="../IMG/Paket1.jpg" height="300px" width="auto"> </a>
 			<div class="myLine2">
-				<a href="Paket1.jsp">Mädelsabend</a>
+				<a href="Paket1View.jsp">Mädelsabend</a>
 			<div class="produkt-marke">Pakete</div>
 					<div class="produkt-preis">48,00 Euro</div>
 				</div>
 					
-			<a href="Paket2.jsp"> <img class="myLine" src="../IMG/Paket2.jpg" height="300x" width="auto"></a>
+			<a href="Paket2View.jsp"> <img class="myLine" src="../IMG/Paket2.jpg" height="300x" width="auto"></a>
 			<div class="myLine2">
-					<a href="Paket1.jsp">Männerabend</a>
+					<a href="Paket2View.jsp">Männerabend</a>
 			<div class="produkt-marke">Pakete</div>
 					<div class="produkt-preis">61,00 Euro</div>
 				</div>
-			<a href="Paket2.jsp"><img class="myLine" src="../IMG/Paket3.jpg" height="300px" width="auto"></a>
+			<a href="Paket3View.jsp"><img class="myLine" src="../IMG/Paket3.jpg" height="300px" width="auto"></a>
 			<div class="myLine2">
-					<a href="Paket1.jsp">Netflix &amp Chill</a>
+					<a href="Paket3View.jsp">Netflix &amp Chill</a>
 			<div class="produkt-marke">Pakete</div>
 					<div class="produkt-preis">15,00 Euro</div>
 				</div>
-			<a href="Paket3.jsp"><img class="myLine" src="../IMG/Paket4.jpg" height="300px" width="auto"></a>
+			<a href="Paket4View.jsp"><img class="myLine" src="../IMG/Paket4.jpg" height="300px" width="auto"></a>
 			<div class="myLine2">
-					<a href="Paket1.jsp">Partypaket</a>
+					<a href="Paket4View.jsp">Partypaket</a>
 			<div class="produkt-marke">Pakete</div>
 					<div class="produkt-preis">96,00 Euro</div>
 				</div>
 		</div>
 </main>
+
+<!-- FOOTER -->
+		<jsp:getProperty property="startFooterAsHtml" name="sb" />
 </body>
 </html>

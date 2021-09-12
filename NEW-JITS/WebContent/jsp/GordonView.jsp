@@ -5,15 +5,19 @@
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
-<title>Insert title here</title>
+<title>Alkoholische Getränke</title>
 </head>
 <body>
+
 <jsp:useBean id="sb" class="jits.beans.StartseiteBean"
 		scope="session"></jsp:useBean>
 <!-- HEADER -->
 <jsp:getProperty property="headerAsHtml" name="sb" />
 
+<!-- CONTENT -->
+
 <!-- FOOTER -->
 		<jsp:getProperty property="startFooterAsHtml" name="sb" />
+
 </body>
 </html>

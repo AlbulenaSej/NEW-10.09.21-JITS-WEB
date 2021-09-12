@@ -8,17 +8,49 @@
 <title>Alkoholische Getränke</title>
 </head>
 <body>
+
 <jsp:useBean id="sb" class="jits.beans.StartseiteBean"
 		scope="session"></jsp:useBean>
 <!-- HEADER -->
 <jsp:getProperty property="headerAsHtml" name="sb" />
 
 <!-- CONTENT -->
-
+<!-- CONTENT -->
 	<main class="main">
 		<a href="HomeView.jsp"><img class="logo-image" src="../IMG/JITSLOGO.png" alt ="logo"></a><br> <br>
-		<h2>Alkoholische Getr&aumlnke</h2>
-		<div class= line>
+	<main class="main">
+			<div class="content">
+			<h2>Bombay Sapphire</h2> <br> <br>
+			<ul class="produkte">
+				<li>
+					<div class="produkt">
+						<img class="produkt-image" src="../IMG/Bombay.jpg" height="800px" width="auto" alt ="Alkohol"/>
+					<div class="produkt-name">
+					<a href="produkt.html">Bombay Sapphire 0,7L (40% Vol.) </a>
+					</div>
+					<div class="produkt-marke">Alkohol</div>
+					<div class="produkt-preis">27,99 Euro</div>
+					</div>
+			</ul>
+			</div>
+			
+	</main>
+		<h4>Beschreibeung</h4><br>
+		<p> <br>
+		Der Bombay Sapphire London Dry Gin ist ein Produkt der gleichnamigen Destillerie, 
+		die Rezeptur geht auf ein Original aus dem Jahr 1761 zurück, das in dem britischen Unternehmen von Generation zu Generation weitergegeben wird.
+		Eine Komposition von zehn verschiedenen Kräutern und Gewürzen wird in einem besonders schonenden Verfahren destilliert, 
+		das vor allem die angenehme Weichheit und Aromenvielfalt des Bombay Sapphire London Dry Gin bewahrt.<br>
+		Aufbewahrung und Verwendung:<br>
+		Kühl, trocken und geschlossen lagern.<br>
+		Vor Feuchtigkeit und Licht schützen.<br>
+
+		Allergene:Keine<br>
+		<br><br><br>
+		</p>
+		
+	<h1>Ähnliche Produkte</h1>
+			<div class= line>
 			<a href="AbsolitVodkaView.jsp"><img class="myLine" src="../IMG/Absolut-Vodka-07L-600x600.jpg" height="300px" width="auto"> </a>
 			<div class="myLine2">
 				<a href="AbsolitVodkaView.jsp">Absolut Vodka 0,7L</a>
@@ -31,13 +63,6 @@
 					<a href="BaileysView.jsp">Baileys - Original 0,7L</a>
 			<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">17,99 Euro</div>
-				</div>
-				
-			<a href="BombayView.jsp"><img class="myLine" src="../IMG/Bombay.jpg" height="300px" width="auto"></a>
-			<div class="myLine2">
-					<a href="BombayView.jsp">Bombay Sapphire 0,7L</a>
-			<div class="produkt-marke">Alkohol</div>
-					<div class="produkt-preis">27,99 Euro</div>
 				</div>
 				
 			<a href="CaptainMorgenView.jsp"><img class="myLine" src="../IMG/Captain-Morgan-Gold-Spiced-07L-Tesxtur-300x300.jpg" height="300px" width="auto"></a>
@@ -118,7 +143,9 @@
 				</div>
 		</div>
 	</main>
+
 <!-- FOOTER -->
 		<jsp:getProperty property="startFooterAsHtml" name="sb" />
+
 </body>
 </html>

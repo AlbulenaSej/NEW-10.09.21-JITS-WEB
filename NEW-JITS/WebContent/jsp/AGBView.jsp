@@ -10,6 +10,7 @@
 <body>
 <jsp:useBean id="sb" class="jits.beans.StartseiteBean"
 		scope="session"></jsp:useBean>
+
 <!-- HEADER -->
 <jsp:getProperty property="headerAsHtml" name="sb" />
 

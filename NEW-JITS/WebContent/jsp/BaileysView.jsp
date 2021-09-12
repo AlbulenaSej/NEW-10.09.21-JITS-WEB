@@ -8,29 +8,52 @@
 <title>Alkoholische Getränke</title>
 </head>
 <body>
+
 <jsp:useBean id="sb" class="jits.beans.StartseiteBean"
 		scope="session"></jsp:useBean>
 <!-- HEADER -->
 <jsp:getProperty property="headerAsHtml" name="sb" />
 
 <!-- CONTENT -->
-
-	<main class="main">
+<main class="main">
 		<a href="HomeView.jsp"><img class="logo-image" src="../IMG/JITSLOGO.png" alt ="logo"></a><br> <br>
-		<h2>Alkoholische Getr&aumlnke</h2>
+	<main class="main">
+			<div class="content">
+			<h2>Baileys - Original 0,7L</h2> <br> <br>
+			<ul class="produkte">
+				<li>
+					<div class="produkt">
+						<img class="produkt-image" src="../IMG/Baileys.jpg" height="800px" width="auto" alt ="Alkohol"/>
+					<div class="produkt-name">
+					<a href="produkt.html">Baileys - Original 0,7L (17% Vol.) </a>
+					</div>
+					<div class="produkt-marke">Alkohol</div>
+					<div class="produkt-preis">17,99 Euro</div>
+					</div>
+			</ul>
+			</div>
+	</main>
+		<h4>Beschreibeung</h4><br><br>
+		<p> <br>
+		Baileys Original Irish Cream ist ein unverschämt köstliches Vergnügen,
+		das feinsten irischen Whiskey, erlesene Spirituosen, frische irische Sahne,
+		reichhaltige Schokolade und Vanillearoma zu einer süßen Sünde vereint.<br> Das Ergebnis? <br>
+		Unfassbar lecker! Genieße ihn pur auf Eis, in Cocktails gemischt, über Eiscreme gegossen oder sogar in Gebäck. <br>
+		Und am schmeckt er, wenn du ihn mit deinen Freunden teilst. <br>
+		Baileys Original Irish Cream ist purer Genuss in seiner reinsten Form.<br> 
+		Widerstand ist zwecklos!<br>
+		ALLERGENEMilch und Milchprodukte (einschließlich Laktose)<br><br>
+		<br><br><br>
+		</p>
+		
+	<h1>Ähnliche Produkte</h1>
+			
 		<div class= line>
 			<a href="AbsolitVodkaView.jsp"><img class="myLine" src="../IMG/Absolut-Vodka-07L-600x600.jpg" height="300px" width="auto"> </a>
 			<div class="myLine2">
 				<a href="AbsolitVodkaView.jsp">Absolut Vodka 0,7L</a>
 			<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">21,99 Euro</div>
-				</div>
-					
-			<a href="BaileysView.jsp"> <img class="myLine" src="../IMG/Baileys.jpg" height="300x" width="auto"></a>
-			<div class="myLine2">
-					<a href="BaileysView.jsp">Baileys - Original 0,7L</a>
-			<div class="produkt-marke">Alkohol</div>
-					<div class="produkt-preis">17,99 Euro</div>
 				</div>
 				
 			<a href="BombayView.jsp"><img class="myLine" src="../IMG/Bombay.jpg" height="300px" width="auto"></a>
@@ -120,5 +143,6 @@
 	</main>
 <!-- FOOTER -->
 		<jsp:getProperty property="startFooterAsHtml" name="sb" />
+
 </body>
 </html>

@@ -4,9 +4,78 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="../css/index.css">
+<link rel= "stylsheet" type="text/css" href="../css/pakete.css">
+<title>Paket4 | Partypaket</title>
 </head>
 <body>
+<jsp:useBean id="sb" class="jits.beans.StartseiteBean"
+		scope="session"></jsp:useBean>
+	
+	<!-- HEADER -->
+		<!-- HEADER -->
+<jsp:getProperty property="headerAsHtml" name="sb" />
+
+	<!-- CONTENT -->
+
+		
+		<main class="main">
+		<a href="HomeView.jsp"><img class="logo-image" src="../IMG/JITSLOGO.png" alt ="logo"></a><br> <br>
+	<main class="main">
+			<div class="content">
+			<h2>Partypaket</h2> <br> <br>
+			<ul class="produkte">
+				<li>
+					<div class="produkt">
+						<img class="produkt-image" src="../IMG/Paket1.jpg" alt ="pakete"/>
+					<div class="produkt-name">
+					<a href="produkt.html">Partypaket </a>
+					</div>
+					<div class="produkt-marke">Pakete</div>
+					<div class="produkt-preis">96,00 Euro</div>
+					</div>
+			</ul>
+			</div>
+		<h4>Beschreibeung</h4><br><br><br><br><br>
+		<p>Inhalt: <br><br>
+		2x Jack Daniel´s 0,7L (40% Vol.)<br>
+		1x Sierra Tequila Silve 0,7L (38% Vol.)<br>
+		1x Wodka Gorbatschow 0,7L (37,5% Vol.)<br>
+		3x Coca Cola 1L<br>
+		1x Fanta 1L<br>
+		1x Sprite 1L<br>
+		1x Chipsfrisch - Ungarisch<br>
+		1x Haribo - Goldbären<br>
+		1x Haribo Schlümpfe<br>
+		1x Snack Mix - 8 Sorten<br><br><br><br><br><br><br>
+		</p>
+	</main>
+	<h1>Ähnliche Produkte</h1>
+		<div class= line>
+			<a href="Paket1View.jsp"> <img class="myLine" src="../IMG/Paket1.jpg" height="300x" width="auto"></a>
+			<div class="myLine2">
+					<a href="Paket1View.jsp">Mäelsabend</a>
+			<div class="produkt-marke">Pakete</div>
+					<div class="produkt-preis">48,00 Euro</div>
+				</div>
+			<a href="Paket2View.jsp"> <img class="myLine" src="../IMG/Paket2.jpg" height="300x" width="auto"></a>
+			<div class="myLine2">
+					<a href="Paket2View.jsp">Männerabend</a>
+			<div class="produkt-marke">Pakete</div>
+					<div class="produkt-preis">61,00 Euro</div>
+				</div>
+			<a href="Paket3View.jsp"><img class="myLine" src="../IMG/Paket3.jpg" height="300px" width="auto"></a>
+			<div class="myLine2">
+					<a href="Paket3View.jsp">Netflix &amp Chill</a>
+			<div class="produkt-marke">Pakete</div>
+					<div class="produkt-preis">15,00 Euro</div>
+				</div>
+		</div>
+	</main>
+	</main>
+		
+<!-- FOOTER -->
+		<jsp:getProperty property="startFooterAsHtml" name="sb" />
 
 </body>
 </html>
