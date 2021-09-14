@@ -92,7 +92,7 @@ public class StartseiteBean {
 				+ "</div>"
 				+ "</div>"
 				+ "</div>"
-				+ "		<h5>Copyright © 2020 JITS</h5>";
+				+ "<h5>Copyright © 2020 JITS</h5>";
 	return footer; 
 		}
 

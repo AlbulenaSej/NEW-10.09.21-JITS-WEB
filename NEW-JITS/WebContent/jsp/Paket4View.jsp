@@ -49,27 +49,33 @@
 		1x Haribo Schlümpfe<br>
 		1x Snack Mix - 8 Sorten<br><br><br><br><br><br><br>
 		</p>
-	</main>
+	
 	<h1>Ähnliche Produkte</h1>
 		<div class= line>
-			<a href="Paket1View.jsp"> <img class="myLine" src="../IMG/Paket1.jpg" height="300x" width="auto"></a>
+			<div><a href="Paket1View.jsp"> <img class="myLine" src="../IMG/Paket1.jpg" height="300x" width="auto"></a>
 			<div class="myLine2">
 					<a href="Paket1View.jsp">Mäelsabend</a>
 			<div class="produkt-marke">Pakete</div>
 					<div class="produkt-preis">48,00 Euro</div>
 				</div>
-			<a href="Paket2View.jsp"> <img class="myLine" src="../IMG/Paket2.jpg" height="300x" width="auto"></a>
+				</div>
+				
+			<div><a href="Paket2View.jsp"> <img class="myLine" src="../IMG/Paket2.jpg" height="300x" width="auto"></a>
 			<div class="myLine2">
 					<a href="Paket2View.jsp">Männerabend</a>
 			<div class="produkt-marke">Pakete</div>
 					<div class="produkt-preis">61,00 Euro</div>
 				</div>
-			<a href="Paket3View.jsp"><img class="myLine" src="../IMG/Paket3.jpg" height="300px" width="auto"></a>
+				</div>
+				
+			<div><a href="Paket3View.jsp"><img class="myLine" src="../IMG/Paket3.jpg" height="300px" width="auto"></a>
 			<div class="myLine2">
 					<a href="Paket3View.jsp">Netflix &amp Chill</a>
 			<div class="produkt-marke">Pakete</div>
 					<div class="produkt-preis">15,00 Euro</div>
 				</div>
+				</div>
+				
 		</div>
 	</main>
 	</main>

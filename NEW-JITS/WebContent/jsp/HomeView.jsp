@@ -55,23 +55,31 @@
 			</div>
 		</div>
 	</div>
-	<h2><a href="PaketeView.jsp">Unsere Spezial Pakete</a></h2>
+	<h2><a href="PaketeView.jsp">Unsere Spezial Pakete</a></h2> 
+	<br><br>
 	<div class=line>
-			<a href="AlkoholView.jsp"><img class="myLine" src="../IMG/Jack-Daniels-Old-No.-7-Tennessee-Whiskey.jpg" height="150px" width="auto"> </a>
+			<div><a href="AlkoholView.jsp"><img class="myLine" src="../IMG/Jack-Daniels-Old-No.-7-Tennessee-Whiskey.jpg" height="300px" width="auto"> </a>
 			<div class="myLine2">
-				<a href="AlkoholView.jsp">Alkohol</a>
+				<h4><a href="AlkoholView.jsp">Alkohol</a></h4>
 			</div>
-			<a href="BierundWeinView.jsp"> <img class="myLine" src="../IMG/Rothaus Pils.jpg" height="150x" width="auto"></a>
-			<div class="myLine2">
-				<a href="BierundWeinView.jsp">Bier &amp Wein</a>
 			</div>
-			<a href="SnacksView.jsp"><img class="myLine" src="../IMG/chips ungarisch.jpg" height="150px" width="auto"></a>
+			
+			<div><a href="BierundWeinView.jsp"> <img class="myLine" src="../IMG/Rothaus Pils.jpg" height="300x" width="auto"></a>
 			<div class="myLine2">
-				<a href="SnacksView.jsp">Snacks</a>
+				<h4><a href="BierundWeinView.jsp">Bier &amp Wein</a></h4>
 			</div>
-			<a href="SoftdrnksView.jsp"><img class="myLine" src="../IMG/CocaCola.jpg" height="150px" width="auto"></a>
+			</div>
+			
+			<div><a href="SnacksView.jsp"><img class="myLine" src="../IMG/chips ungarisch.jpg" height="300px" width="auto"></a>
 			<div class="myLine2">
-				<a href="SoftdrinksView.jsp">Softdrinks</a>
+				<h4><a href="SnacksView.jsp">Snacks</a></h4>
+			</div>
+			</div>
+			
+			<div><a href="SoftdrnksView.jsp"><img class="myLine" src="../IMG/CocaCola.jpg" height="300px" width="auto"></a>
+			<div class="myLine2">
+				<h4><a href="SoftdrinksView.jsp">Softdrinks</a></h4>
+			</div>
 			</div>
 		</div>
 </main> 
