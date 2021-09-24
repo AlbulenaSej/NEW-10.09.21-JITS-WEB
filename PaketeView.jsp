@@ -5,7 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
-<link rel="stylesheet" type="text/css" href="../css/warenkorb1.css">
+<script type="text/javascript" src="../js/warenkorb.js"></script>
 <title>Pakete</title>
 </head>
 <body>
@@ -22,52 +22,56 @@
 		<div class= line>
 			<div><a href="Paket1View.jsp"><img class="myLine" src="../IMG/Paket1.jpg" height="300px" width="auto"> </a>
 			<div class="myLine2">
-				<a href="Paket1View.jsp">Mädelsabend</a>
+				<span class="shop-ite-title"><a href="Paket1View.jsp">Mädelsabend</a></span> 
 			<div class="produkt-marke">Pakete</div>
 					<div class="produkt-preis">48,00 Euro</div>
-					<div> <button type="button">Zum Warenkorb hinzufügen</button> </div>
+					 <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 					
 			<div><a href="Paket2View.jsp"> <img class="myLine" src="../IMG/Paket2.jpg" height="300x" width="auto"></a>
 			<div class="myLine2">
-					<a href="Paket2View.jsp">Männerabend</a>
+					<span class="shop-ite-title"><a href="Paket2View.jsp">Männerabend</a></span>
 			<div class="produkt-marke">Pakete</div>
 					<div class="produkt-preis">61,00 Euro</div>
-					<div> <button type="button">Zum Warenkorb hinzufügen</button> </div>
+					 <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 				
 			<div><a href="Paket3View.jsp"><img class="myLine" src="../IMG/Paket3.jpg" height="300px" width="auto"></a>
 			<div class="myLine2">
-					<a href="Paket3View.jsp">Netflix &amp Chill</a>
+					<span class="shop-ite-title"><a href="Paket3View.jsp">Netflix &amp Chill</a></span>
 			<div class="produkt-marke">Pakete</div>
 					<div class="produkt-preis">15,00 Euro</div>
-					<div> <button type="button">Zum Warenkorb hinzufügen</button> </div>
+					 <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 				
 			<div><a href="Paket4View.jsp"><img class="myLine" src="../IMG/Paket4.jpg" height="300px" width="auto"></a>
 			<div class="myLine2">
-					<a href="Paket4View.jsp">Partypaket</a>
+					<span class="shop-ite-title"><a href="Paket4View.jsp">Partypaket</a></span>
 			<div class="produkt-marke">Pakete</div>
 					<div class="produkt-preis">96,00 Euro</div>
-					<div> <button type="button">Zum Warenkorb hinzufügen</button> </div>
+					 <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
-		</div>
-		<section class="container content-section">
-			<h2 class="section-header"> Warenkorb</h2>
-			<div class="warenkorb-row">
-				<span class="warenkorb-produkt warenkorb-header warenkorb-column">Produkt</span>
-				<span class="warenkorb-preis warenkorb-header warenkorb-column">Preis</span>
-				<span class="warenkorb-menge warenkorb-header warenkorb-column">Menge</span>
-			</div>
-			<div class="warenkorb-row">
-				<div class="warenkorb-produkt warenkorb-column"></div>
-			</div>
-		
-		</section>
+		</div><br><br><br><br>
+	    
+	     <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
 		
 </main>
 
