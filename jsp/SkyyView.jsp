@@ -28,29 +28,30 @@
 					</div>
 					<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">23,99 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 					</div>
 			</ul>
 			</div>
 
-		<h4>Beschreibeung</h4><br>
-		<p> <br><br>
+		<h4 class="beschreibung">Beschreibeung</h4>
+		<p> 
 		SKYY Vodka: Willkommen unter dem blauen Himmel Kaliforniens.<br>
 		SKYY Vodka wurde als vierfach destillierte und dreifach gefilterte Premiumspirituose entwickelt, 
 		die die gesamte Vodk- Kategorie neu interpretieren und gestalten sollte.<br>
 
 		Vom puristischen, kobaltblauen Flaschendesign, das bewusst mit den etablierten Vodka-Traditionen aus Russland und Osteuropa bricht,<br>
 		bis hin zu innovativen Lifestyle-Kampagnen hat es sich SKYY Vodka stets zur Aufgabe gemacht, 
-		bestehende Konventionen durch progressives und frisches Denken herauszufordern.Sierra Tequila Silver ist ein geruhter, klarer Tequila.<br> 
+		bestehende Konventionen durch progressives und frisches Denken herauszufordern.Sierra Tequila Silver ist ein geruhter, klarer Tequila.<br> <br>
 		Sein volles, fruchtiges, 
 		frisches und von leichter Chilinote dominiertes Aroma spiegelt sowohl die Tequilana Weber Azul Agave wieder,<br>
 		als auch leichte Noten vom grünen Apfel und junger Ananas.<br>
 		Pfeffer Nuancen geben Sierra Tequila Silver das gewisse Etwas und machen ihn zu einem temperamentvollen Tequila.<br>
 		Sierra Tequila kommt aus der Destilería Sierra, die auf einer historischen Hacienda in Guadalajara, 
-		der Hauptstadt des Tequila, gelegen ist.<br>
-		<br><br><br><br>
+		der Hauptstadt des Tequila, gelegen ist.
 		</p>
 		
-	<h1>Ähnliche Produkte</h1>
+		<br><br><br><br><br><br>
+	<h2>Ähnliche Produkte</h2>
 			<div class= line>	
 				<div><a href="CaptainMorgenView.jsp"><img class="myLine" src="../IMG/Captain-Morgan-Gold-Spiced-07L-Tesxtur-300x300.jpg" height="300px" width="auto"></a>
 			<div class="myLine2">

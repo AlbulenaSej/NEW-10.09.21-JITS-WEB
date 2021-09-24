@@ -5,7 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
-<script type="text/javascript"src="../js/Home.js"></script>
+<script type="text/javascript" src="../js/Home.js"></script>
 <title>JITS Nachtlieferservice</title>
 
 </head>
@@ -25,7 +25,7 @@
 		
 			<div class="content">
 			<h3>Herzlich Willkommen! </h3>
-			<p>
+			<p class="homeseite">
 			<br>
 			<br>
 			JITS ist ein Nachtlieferservice, wir liefern dir Getränke, Snacks und bereits zusammengestellte Pakete direkt an die Haustür.  <br><br>

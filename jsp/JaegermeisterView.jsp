@@ -28,18 +28,20 @@
 					</div>
 					<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">21,99 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 					</div>
 			</ul>
 			</div>
 	
-		<h4>Beschreibeung</h4>
+		<h4 class="beschreibung">Beschreibeung</h4>
 		<p> 
 		Jedes Meisterwerk besteht zu gleichen Teilen aus Präzision und Inspiration. Jägermeister ist da keine Ausnahme.<br><br>
 		Unser eiskalter Shot, der 56 Kräuter ausgewogen vereint, war schon immer der Drink von denen, die neue Wege gehen.
-		<br><br>
 		</p>
 		
-	<h1>Ähnliche Produkte</h1>
+		<div>
+		<br><br><br><br><br><br>
+	<h2>Ähnliche Produkte</h2>
 			<div class= line>
 			<div><a href="AbsolitVodkaView.jsp"><img class="myLine" src="../IMG/Absolut-Vodka-07L-600x600.jpg" height="300px" width="auto"> </a>
 			<div class="myLine2">
@@ -119,6 +121,7 @@
 				</div>
 				</div>
 				</div>
+			</div>
 				
 		
 	</main>

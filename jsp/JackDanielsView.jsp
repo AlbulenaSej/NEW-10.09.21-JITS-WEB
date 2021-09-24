@@ -28,26 +28,28 @@
 					</div>
 					<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">24,99 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 					</div>
 			</ul>
 			</div>
 
-		<h4>Beschreibeung</h4><br>
-		<p> <br><br>
+		<h4 class="beschreibung">Beschreibeung</h4>
+		<p> 
 		Der heute weltbekannte Whiskey wird seit 1866 in der Jack Daniels Destillerie, der ältesten eingetragenen Destillerie Nordamerikas,
 		nach dem unveränderten Originalrezept von Mr. Jack Daniel hergestellt.<br> 
 		Die Destillerie in Lynchburg, Tennessee, zählt weltweit zu den bekanntesten Whiskey-Produktionsstätten.<br> 
-		Für die Herstellung wird neben dem Getreide, hauptsächlich Mais und Roggen, reinstes Wasser aus der eigenen Felsquelle verwendet.<br>
+		Für die Herstellung wird neben dem Getreide, hauptsächlich Mais und Roggen, reinstes Wasser aus der eigenen Felsquelle verwendet.<br><br>
 		ALLEERGENE: Farbstoffe,Einfacher Zuckerkulör E150a<br>
 		Verkehrsbezeichnung: Whisky<br>
 		Gebindegröße: 0,7-l-Flasche<br>
-		Alkoholgehalt: 40 % vol.<br>
+		Alkoholgehalt: 40 % vol.<br><br>
 		Aufbewahrung und Verwendung<br>
-		Kühl und trocken lagern.<br>
-		<br><br><br><br>
+		Kühl und trocken lagern.
 		</p>
 		
-	<h1>Ähnliche Produkte</h1>
+		<div>
+		<br><br><br><br><br><br>
+	<h2>Ähnliche Produkte</h2>
 			<div class= line>
 			<div><a href="AbsolitVodkaView.jsp"><img class="myLine" src="../IMG/Absolut-Vodka-07L-600x600.jpg" height="300px" width="auto"> </a>
 			<div class="myLine2">
@@ -162,6 +164,7 @@
 				</div>
 			</div>
 			</div>
+		</div>
 		
 	</main>
 <!-- FOOTER -->

@@ -28,26 +28,27 @@
 					</div>
 					<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">21,99 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 					</div>
 			</ul>
 			</div>
 	
-		<h4>Beschreibeung</h4><br>
+		<h4 class="beschreibung">Beschreibeung</h4>
 		<p> <br>
 		Absolut Vodka wurde 1979 in New York lanciert.
-		Bald sprach die ganze Stadt davon, dann die USA und schließlich die ganze Welt. 
-		Aber das Rezept hinter dem reinen und natürlichen Geschmack von Absolut ist eigentlich viel älter als gut 40 Jahre.
+		Bald sprach die ganze Stadt davon, dann die USA und schließlich die ganze Welt. <br>
+		Aber das Rezept hinter dem reinen und natürlichen Geschmack von Absolut ist eigentlich viel älter als gut 40 Jahre.<br>
 		Das gilt auch für die Absolut Flasche, die unterdessen zur Ikone geworden ist: Anregung dazu war eine Arzneiflasche aus dem 
 		18. Jahrhundert aus einem Antiquariat in Stockholm.<br><br>
 		
 		Kategorie: Vodka<br>
 		Gebindegröße: 0,7-l-Flasche<br>
 		Alkoholgehalt: 40 % vol.<br>
-		Verantwortlicher Lebensmittelunternehmer: The Absolut Company AB, 117 97 Stockholm, Sweden<br>
-		<br><br><br>
+		Verantwortlicher Lebensmittelunternehmer: The Absolut Company AB, 117 97 Stockholm, Sweden
 		</p>
-		
-	<h1>Ähnliche Produkte</h1>
+		<div>
+		<br><br><br><br><br><br>
+	<h2>Ähnliche Produkte</h2>
 			<div class= line>		
 			<div><a href="BaileysView.jsp"> <img class="myLine" src="../IMG/Baileys.jpg" height="300x" width="auto"></a>
 			<div class="myLine2">
@@ -162,6 +163,7 @@
 				</div>
 				</div>
 			</div>
+		</div>
 		
 	</main>
 		

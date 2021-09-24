@@ -29,12 +29,13 @@
 					</div>
 					<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">27,99 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 					</div>
 			</ul>
 			</div>
 			
-		<h4>Beschreibeung</h4><br>
-		<p> <br>
+		<h4 class="beschreibung">Beschreibeung</h4>
+		<p> 
 		Der Bombay Sapphire London Dry Gin ist ein Produkt der gleichnamigen Destillerie, 
 		die Rezeptur geht auf ein Original aus dem Jahr 1761 zurück, das in dem britischen Unternehmen von Generation zu Generation weitergegeben wird.<br>
 		Eine Komposition von zehn verschiedenen Kräutern und Gewürzen wird in einem besonders schonenden Verfahren destilliert, 
@@ -46,8 +47,8 @@
 		Allergene:Keine<br>
 		<br><br><br>
 		</p>
-		
-	<h1>Ähnliche Produkte</h1>
+		<br><br><br><br><br><br>
+	<h2>Ähnliche Produkte</h2>
 			<div class= line>
 			<div><a href="AbsolitVodkaView.jsp"><img class="myLine" src="../IMG/Absolut-Vodka-07L-600x600.jpg" height="300px" width="auto"> </a>
 			<div class="myLine2">

@@ -43,7 +43,7 @@
 				</div>
 				</div>
 				</div>	<br><br>	<br><br>	<br><br>
-			<h2>Weitere Prodkte</h2> 
+			<h2>Weitere Produkte</h2> 
 				<br><br>
 			<div class=line>
 			<div><img class="myLine" src="../IMG/Jack-Daniels-Old-No.-7-Tennessee-Whiskey.jpg" height="300px" width="auto"> 

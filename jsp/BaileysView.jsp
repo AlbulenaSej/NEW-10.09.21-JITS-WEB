@@ -28,24 +28,24 @@
 					</div>
 					<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">17,99 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 					</div>
 			</ul>
 			</div>
 	
-		<h4>Beschreibeung</h4><br><br>
-		<p> <br>
+		<h4 class="beschreibung">Beschreibeung</h4>
+		<p>
 		Baileys Original Irish Cream ist ein unverschämt köstliches Vergnügen,
 		das feinsten irischen Whiskey, erlesene Spirituosen, frische irische Sahne,
 		reichhaltige Schokolade und Vanillearoma zu einer süßen Sünde vereint.<br> Das Ergebnis? <br>
 		Unfassbar lecker! Genieße ihn pur auf Eis, in Cocktails gemischt, über Eiscreme gegossen oder sogar in Gebäck. <br>
 		Und am schmeckt er, wenn du ihn mit deinen Freunden teilst. <br>
 		Baileys Original Irish Cream ist purer Genuss in seiner reinsten Form.<br> 
-		Widerstand ist zwecklos!<br>
-		ALLERGENEMilch und Milchprodukte (einschließlich Laktose)<br><br>
-		<br><br><br>
+		Widerstand ist zwecklos!<br><br>
+		Allergene Milch und Milchprodukte (einschließlich Laktose)
 		</p>
-		
-	<h1>Ähnliche Produkte</h1>
+		<br><br><br><br><br><br>
+	<h2>Ähnliche Produkte</h2>
 			
 		<div class= line>
 			<div><a href="AbsolitVodkaView.jsp"><img class="myLine" src="../IMG/Absolut-Vodka-07L-600x600.jpg" height="300px" width="auto"> </a>

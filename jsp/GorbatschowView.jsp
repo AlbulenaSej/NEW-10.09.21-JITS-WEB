@@ -28,23 +28,25 @@
 					</div>
 					<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">14,99 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 					</div>
 			</ul>
 			</div>
 
-		<h4>Beschreibeung</h4><br>
-		<p> <br><br>
+		<h4 class="beschreibung">Beschreibeung</h4>
+		<p> 
 		 Der Gorbatschow Wodka ist eine der bekanntesten und beliebtesten Wodka-Sorten Deutschlands.<br>
   		 Seine Wurzeln liegen jedoch in Russland. Schon vor dem Ersten Weltkrieg begann die Familie Gorbatschow mit der Wodka-Herstellung.<br>
 		 Durch die Oktoberrevolution von 1917 mussten die Gorbatschows nach Deutschland auswandern.<br>
 		 Hier eröffneten sie ihr Unternehmen nach kurzer Zeit wieder. <br>
  		 Innerhalb weniger Jahre konnte der Gorbatschow Vodka seinen Siegeszug in Deutschland und Europa fortsetzen.<br>
  		 Das Besondere der Wodka-Produktion bei Gorbatschow ist die 3-fache Kältefiltration über Aktivkohle.<br>
-		 Er kann pur getrunken werden, bildet jedoch auch eine gute Basis für Cocktails und Longdrinks.<br>
-		<br><br><br><br>
+		 Er kann pur getrunken werden, bildet jedoch auch eine gute Basis für Cocktails und Longdrinks.
 		</p>
 		
-	<h1>Ähnliche Produkte</h1>
+		<div>
+		<br><br><br><br><br><br>
+	<h2>Ähnliche Produkte</h2>
 			<div class= line>
 			<div><a href="AbsolitVodkaView.jsp"><img class="myLine" src="../IMG/Absolut-Vodka-07L-600x600.jpg" height="300px" width="auto"> </a>
 			<div class="myLine2">
@@ -159,6 +161,7 @@
 				</div>
 			</div>
 			</div>
+		</div>
 		
 	</main>
 

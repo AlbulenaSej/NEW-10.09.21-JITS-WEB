@@ -28,26 +28,28 @@
 					</div>
 					<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">19,99 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 					</div>
 			</ul>
 			</div>
 			
-		<h4>Beschreibeung</h4>
-		<p> <br>
+		<h4 class="beschreibung">Beschreibeung</h4>
+		<p>
 		Die Destillerie Jim Beam hat ihren Sitz in Clermont, Kentucky, und wurde im Jahr 1795 von dem deutschstämmigen Johannes Jakob Böhm gegründet,
-		der seinen Namen später auf Jacob Beam änderte. 
-		Unter der Marke Jim Beam kreiert das Unternehmen seither mit großem Erfolg hervorragenden Bourbon Whiskey.<br>
+		der seinen Namen später auf Jacob Beam änderte. <br>
+		Unter der Marke Jim Beam kreiert das Unternehmen seither mit großem Erfolg hervorragenden Bourbon Whiskey.<br><br>
 		Jim Beam Kentucky Straight Bourbon präsentiert im Glas ein tiefgoldenes Bernstein, 
 		das Bouquet entfaltet sich kräftig mit den süßen Nuancen von Vanille und begleitet von einer schönen Holznote.<br>
 		Auf der Zunge entwickelt sich der Whisky cremig und würzig mit deutlichen Anklängen von Toffee,
-		fein abgestimmt mit Vanille und einem Hauch Eiche. Der Nachklang gestaltet sich intensiv, langanhaltend und würzig.<br>
+		fein abgestimmt mit Vanille und einem Hauch Eiche. Der Nachklang gestaltet sich intensiv, langanhaltend und würzig.<br><br>
 		Jim Beam Kentucky Straight Bourbon kann mit seinen 40% Alkoholgehalt pur getrunken werden,
 		je nach persönlicher Vorliebe gut temperiert, gekühlt oder auf Eis.<br>
-		Er eignet sich aber auch hervorragend als Grundlage für klassische Longdrinks und Cocktails.<br>
-		<br><br>
+		Er eignet sich aber auch hervorragend als Grundlage für klassische Longdrinks und Cocktails.
 		</p>
 		
-	<h1>Ähnliche Produkte</h1>
+		<div>
+		<br><br><br><br><br><br>
+	<h2>Ähnliche Produkte</h2>
 			<div class= line>
 			<div><a href="ThreeSixtyView.jsp"><img class="myLine" src="../IMG/Three Sixty.jpg" height="300px" width="auto"></a>
 			<div class="myLine2">
@@ -128,6 +130,7 @@
 				</div>
 				</div>
 				</div>
+			</div>
 	</main>
 <!-- FOOTER -->
 		<jsp:getProperty property="startFooterAsHtml" name="sb" />

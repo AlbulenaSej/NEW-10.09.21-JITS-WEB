@@ -13,6 +13,23 @@
 <!-- HEADER -->
 <jsp:getProperty property="headerAsHtml" name="sb" />
 
+<!-- CONTENT -->
+<main>
+		<h2>Impressum</h2>
+
+		<div>
+			<p>Angaben gemaeﬂ ß 5TMG: <br><br>
+					Philipp Fischer,<br>
+					Albulena Sejdijaj<br>
+					Nachtlieferservice<br>
+					Maxstraﬂe 12<br> 67059
+					Ludigshafen am Rhein
+			<p>Kontakt: <br><br>
+				Telefon: +49 987 654 - 3<br> E-Mail: admin@jits-service.de
+				</p>
+			<br> <br> <br>
+	</div>
+</main>
 <!-- FOOTER -->
 		<jsp:getProperty property="startFooterAsHtml" name="sb" />
 </body>

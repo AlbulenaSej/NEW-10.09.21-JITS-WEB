@@ -31,21 +31,22 @@
 					</div>
 					<div class="produkt-marke">Pakete</div>
 					<div class="produkt-preis">48,00 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 					</div>
 			</ul>
 			</div>
 			
-		<h4>Beschreibeung</h4><br>
+		<h4 class="beschreibung">Beschreibeung</h4>
 		<p>Inhalt: <br><br>
 		1x Malibu Carribean Rum mit Kokusnusslikör 0,7L (21% vol.)	<br>
 		1x Baileys Original Irish Cream Likör 0,7L (17% vol.)	<br>
 		3x 28 Black ACAI 0,25L <br>
 		1x Maracuja-Nektar 1L 	<br>
 		1x Haribo - Goldbären<br>
-		1x Snack Mix - 8 Sorten<br><br><br>
+		1x Snack Mix - 8 Sorten
 		</p>
-		
-	<h1>Ähnliche Produkte</h1>
+		<br><br><br><br><br><br>
+	<h2>Ähnliche Produkte</h2>
 		<div class= line>
 			<div><a href="Paket2View.jsp"> <img class="myLine" src="../IMG/Paket2.jpg" height="300x" width="auto"></a>
 			<div class="myLine2">

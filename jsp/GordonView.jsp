@@ -24,26 +24,28 @@
 					<div class="produkt">
 						<img class="produkt-image" src="../IMG/Gordon´s.jpg" height="800px" width="auto" alt ="Alkohol"/>
 					<div class="produkt-name">
-					<a href="produkt.html">Gondon´s 0,7L (37,5% Vol.) </a>
+					<a href="produkt.html">Gordon´s 0,7L (37,5% Vol.) </a>
 					</div>
 					<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">18,99 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 					</div>
 			</ul>
 			</div>
 		
-		<h4>Beschreibeung</h4><br>
-		<p> <br><br>
+		<h4 class="beschreibung">Beschreibeung</h4>
+		<p> 
 		 GORDONS London Dry Gin ist weltweiter Marktführer im Gin Segment und auch in Deutschland die
 		 Nr. 1. Gin Liebhaber in aller Welt charakterisieren GORDONS London Dry Gin als leicht, raffiniert und wunderbar erfrischend.<br>
 		 Dieser besondere Geschmack beruht auf hochwertigen Kräutern, Gewürzen und ausgereiften, 
 		 sorgfältig ausgewählten toskanischen Wacholderbeeren, die nach einem über 200 Jahre alten, streng geheimen Rezept verarbeitet werden.<br>
 		 Gordons Gin ist der meistverkaufte London Dry Gin der Welt.<br>
-		 Sein von Wachholder und Zitrusnoten geprägter Charakter bescherte ihm den Ruf, der Inbegriff eines guten Gins zu sein.<br><br>
-		<br><br><br><br>
+		 Sein von Wachholder und Zitrusnoten geprägter Charakter bescherte ihm den Ruf, der Inbegriff eines guten Gins zu sein.
 		</p>
 		
-	<h1>Ähnliche Produkte</h1>
+	<div>
+		<br><br><br><br><br><br>
+	<h2>Ähnliche Produkte</h2>
 			<div class= line>
 			<div><a href="AbsolitVodkaView.jsp"><img class="myLine" src="../IMG/Absolut-Vodka-07L-600x600.jpg" height="300px" width="auto"> </a>
 			<div class="myLine2">
@@ -158,6 +160,7 @@
 				</div>
 			</div>
 			</div>
+		</div>
 		
 	</main>
 <!-- FOOTER -->

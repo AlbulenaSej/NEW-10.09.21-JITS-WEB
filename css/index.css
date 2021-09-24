@@ -15,9 +15,9 @@ body{
 }
 h1 {
 	color: #ffffff;
-	display: flex;
-	justify-content: left; 
-	align-items: left;
+	display: center;
+	justify-content: center; 
+	align-items: center;
 	margin : .5rem;
 	height: 3rem; 
 	
@@ -48,8 +48,8 @@ h2{
 	align-items: center;
 	border-bottom: .2rem #ff5b5b solid;
 	margin : .5rem;
-	height: 3rem; 
-	 text-shadow:
+	height: 5rem; 
+	text-shadow:
     0 0 10px #ff80c0,
     0 0 20px #ff80c0,
     0 0 30px #ff80c0;		
@@ -68,7 +68,24 @@ h4{
     0 0 20px #ff80c0,
     0 0 30px #ff80c0;			
 }
-p{
+
+.beschreibung{
+	display: flex;
+	justify-content: left; 
+	align-items: left;
+	margin : .5rem;
+	height: 5rem; 
+	background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    text-shadow:
+    0 0 10px #ff80c0,
+    0 0 20px #ff80c0,
+    0 0 30px #ff80c0;			
+}
+}
+
+.homeseite
+{
 	text-align: center;
 	font: 16px Helvetica;;
 	color: #ffffff;
@@ -77,7 +94,32 @@ p{
 	align-items: center;
 	margin : .5rem;
 	height: 13rem; 
-	border-bottom: .2rem #ff5b5b solid;
+}
+p{
+	text-align: left;
+	font: 16px Helvetica;;
+	color: #ffffff;
+	display: flex;
+	justify-content: left; 
+	align-items: left;
+	margin : 1rem;
+	height: 13rem; 
+}
+
+
+.title1 {
+	color: #151414;
+	text-align: center;
+	font-size: 50px;
+	font-family: fjalla one;
+	font-weight: bold;
+}
+
+.title2 {
+	color: #151414;
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
 }
 
 .grid-container{
@@ -87,7 +129,7 @@ p{
 	"main"
 	"footer";
 	grid-template-columns: 1fr; /*fr = fragment */
-	gird-tamplate-rows: 5rem 1fr 5rem; /* for header, main and footer*/
+	gird-tamplate-rows: 5rem 2fr 5rem; /* for header, main and footer*/
 	height: 100%;
 }
 
@@ -145,6 +187,10 @@ p{
 	display: flex;
     justify-content: center;
 	align-items: center;
+	flex-grow: 1;
+    text-align: end;
+    padding: .25em 0;
+	
 }
 a {
 	text-decoration: none; 
@@ -247,34 +293,7 @@ a:hover{
 	margin-bottom: 20px;
 }
 
-.seitenliste{
-	position: fixed;
-	transition: all .5se;
-	/*transform: translate(); /*um die seitenliste außerhalb der Bildschirms zu halten*/
-	width: 15rem;
-	background-color: black; 
-	height: 50%;
-	color:white; 
-	
-}
 
-.seitenliste.open{
-	transform: translateX(0);/*beim öffnen der seitenleiste wird auf oben referiert*/
-}
-
-.seitenliste-schließen-button{
-	border-radus: 30%;
-	border: 0.1rem black solid;
-	width:3rem;
-	height:3rem;
-	padding: .5rem;
-	padding-top:0;
-	font-size: 2rem;
-	cursor: pointer;
-	position: absolute;
-	right: 0rem; 
-	top: 0rem;		
-}
 .Anfangdiv {
 	display: flex;
 	justify-content: center; 
@@ -363,3 +382,25 @@ nav ul li {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
+.registreiren{
+	margin: 20px auto;
+	height: auto;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	
+}
+
+.anmelden{
+	height: auto;
+	text-align: left;
+	align-items: left;
+	justify-content: left;
+	display: flex;
+	align-items: left;
+	
+}
+

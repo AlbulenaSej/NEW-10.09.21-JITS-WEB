@@ -28,25 +28,25 @@
 					</div>
 					<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">17,99 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 					</div>
 			</ul>
 			</div>
 	
-		<h4>Beschreibeung</h4><br>
+		<h4 class="beschreibung">Beschreibeung</h4><br>
 		<p> Vor all den Jahren war es trockene Arbeit für den Captain auf den sieben Meeren: 
-		Er und seine bunte Truppe verwegener Freibeuter schufen die Galionsfigur der Flotte des Captains und der Original Spiced Gold war geboren. 
-		Und seitdem haben der Captain und seine Crew nie wieder zurückgeschaut. <br>
+		Er und seine bunte Truppe verwegener Freibeuter schufen die Galionsfigur der Flotte des Captains und der Original Spiced Gold war geboren. <br>
+		Seitdem haben der Captain und seine Crew nie wieder zurückgeschaut. <br>
 		
 		ALLERGENE: Farbstoffe<br><br>
 
 		Kategorie: Rum<br>
 		Gebindegröße: 0,7-l-Flasche<br>
 		Alkoholgehalt: 35 % vol.
-
-		<br><br><br>
 		</p>
-		
-	<h1>Ähnliche Produkte</h1>
+		<div>
+		<br><br><br><br><br><br>
+	<h2>Ähnliche Produkte</h2>
 			<div class= line>
 			<div><a href="AbsolitVodkaView.jsp"><img class="myLine" src="../IMG/Absolut-Vodka-07L-600x600.jpg" height="300px" width="auto"> </a>
 			<div class="myLine2">
@@ -159,6 +159,7 @@
 			<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">4,99 Euro</div>
 				</div>
+			</div>
 			</div>
 			</div>
 		

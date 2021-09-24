@@ -28,23 +28,25 @@
 					</div>
 					<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">16,99 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 					</div>
 			</ul>
 			</div>
 
-		<h4>Beschreibeung</h4><br>
-		<p> <br><br>
+		<h4 class="beschreibung">Beschreibeung</h4>
+		<p> 
 		Seit mehr als 350 Jahren wird auf der karibischen Insel Barbados in der West Indies Rum Distillery ein Rum hergestellt,
 		der sich durch seine besondere Finesse auszeichnet.<br>
-		Feine Noten von Zuckerrohr und Butterrum verleihen diesem Rum eine besondere Leichtigkeit, die ihn von den übrigen Rumsorten unterscheidet<br>
-		Diese Eigenschaften bilden eine hervorragende Grundlage für die Mischung mit exotischen Geschmackskomponenten,<br>
+		Feine Noten von Zuckerrohr und Butterrum verleihen diesem Rum eine besondere Leichtigkeit, die ihn von den übrigen Rumsorten unterscheidet.<br><br>
+		Diese Eigenschaften bilden eine hervorragende Grundlage für die Mischung mit exotischen Geschmackskomponenten,
 		wie sie für die Herstellung von Malibu verwendet werden.<br>
 		Seit den frühen 80er Jahren, als Malibu sich zu einer internationalen Größe entwickelte, 
-		wird ausschließlich Rum aus Barbados und von höchster Qualität für die Produktion von Malibu eingesetzt.<br>
-		<br><br><br><br>
+		wird ausschließlich Rum aus Barbados und von höchster Qualität für die Produktion von Malibu eingesetzt.
 		</p>
 		
-	<h1>Ähnliche Produkte</h1>
+		<div>
+		<br><br><br><br><br><br>
+	<h2>Ähnliche Produkte</h2>
 			<div class= line>
 			<div><a href="ThreeSixtyView.jsp"><img class="myLine" src="../IMG/Three Sixty.jpg" height="300px" width="auto"></a>
 			<div class="myLine2">
@@ -122,6 +124,7 @@
 					<a href="BaileysView.jsp">Baileys - Original 0,7L</a>
 			<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">17,99 Euro</div>
+				</div>
 				</div>
 				</div>
 				</div>
