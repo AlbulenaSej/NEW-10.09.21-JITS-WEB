@@ -21,25 +21,28 @@
 		<div class= line>
 			<div><img class="myLine" src="../IMG/Becks-ausgeschnitten-300x406.jpg" height="300px" width="auto">
 			<div class="myLine2">
-				<a href="AbsolitVodkaView.jsp">Beck´s Pils 0,33L</a>
+				<a>Beck´s Pils 0,33L</a>
 			<div class="produkt-marke">Bier</div>
 					<div class="produkt-preis">1,70 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 					
 			<div><img class="myLine" src="../IMG/Corona-Extra-300x400.jpg" height="300x" width="auto">
 			<div class="myLine2">
-					<a href="BaileysView.jsp">Corona Extra 0,33L</a>
+					<a>Corona Extra 0,33L</a>
 			<div class="produkt-marke">Bier</div>
 					<div class="produkt-preis">2,50 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 				
 			<div><img class="myLine" src="../IMG/Ureich2-300x449.jpg" height="300px" width="auto">
 			<div class="myLine2">
-					<a href="BombayView.jsp">Ureich Premium Pils 0,33L</a>
+					<a>Ureich Premium Pils 0,33L</a>
 			<div class="produkt-marke">Bier</div>
 					<div class="produkt-preis">1,70 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 				</div>	<br><br>	<br><br>	<br><br>

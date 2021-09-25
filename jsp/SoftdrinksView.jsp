@@ -22,33 +22,37 @@
 		<div class= line>
 			<div><img class="myLine" src="../IMG/CocaCola.jpg" height="300px" width="auto"> 
 			<div class="myLine2">
-				<a href="AbsolitVodkaView.jsp">Coca-Cola 1L</a>
+				<a>Coca-Cola 1L</a>
 			<div class="produkt-marke">Softdrinks</div>
 					<div class="produkt-preis">2,50 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 					
 			<div> <img class="myLine" src="../IMG/Cola light.jpg" height="300x" width="auto">
 			<div class="myLine2">
-					<a href="BaileysView.jsp">Coca-Cola light 1L</a>
+					<a>Coca-Cola light 1L</a>
 			<div class="produkt-marke">Softdrinks</div>
 					<div class="produkt-preis">2,50 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 				
 			<div><img class="myLine" src="../IMG/Mezzo.jpg" height="300px" width="auto">
 			<div class="myLine2">
-					<a href="GorbatschowView.jsp">Mezzo Mix 1L</a>
+					<a>Mezzo Mix 1L</a>
 			<div class="produkt-marke">Softdrinks</div>
 					<div class="produkt-preis">2,50 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 					
 			<div><img class="myLine" src="../IMG/Fanta.jpg" height="300px" width="auto">
 			<div class="myLine2">
-					<a href="CaptainMorgenView.jsp">Fanta 1L</a>
+					<a>Fanta 1L</a>
 			<div class="produkt-marke">Softdrinks</div>
 					<div class="produkt-preis">2,50 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div> 
 				</div>
@@ -56,33 +60,37 @@
 			<div class= line>	
 			<div><img class="myLine" src="../IMG/Sprite.jpg" height="300px" width="auto">
 			<div class="myLine2">
-					<a href="GordonView.jsp">Sprite 1L</a>
+					<a>Sprite 1L</a>
 			<div class="produkt-marke">Softdrinks</div>
 					<div class="produkt-preis">2,50 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 				
 			<div><img class="myLine" src="../IMG/Red Bull.jpg" height="300px" width="auto">
 			<div class="myLine2">
-					<a href="JackDanielsView.jsp">Red Bull 0,25L </a>
+					<a>Red Bull 0,25L </a>
 			<div class="produkt-marke">Softdrinks</div>
 					<div class="produkt-preis">2,75 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 			
 			<div><img class="myLine" src="../IMG/28Black.jpg" height="350px" width="auto">
 			<div class="myLine2">
-					<a href="JimBeamView.jsp">28 Black Acai 0,25L   </a>
+					<a>28 Black Acai 0,25L   </a>
 			<div class="produkt-marke">Softdrinks</div>
 					<div class="produkt-preis">2,80 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 				
 			<div><img class="myLine" src="../IMG/Marakuja.jpg" height="350px" width="auto">
 			<div class="myLine2">
-					<a href="JimBeamView.jsp">Maracuja-Nektar 1L</a>
+					<a>Maracuja-Nektar 1L</a>
 			<div class="produkt-marke">Softdrinks</div>
 					<div class="produkt-preis">3,50 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 			</div>
@@ -90,17 +98,19 @@
 			<div class= line>		
 			<div><img class="myLine" src="../IMG/Kirschsaft.jpg" height="350px" width="auto">
 			<div class="myLine2">
-					<a href="MalibuView.jsp">Albi - Kirschnektar 1L</a>
+					<a>Albi - Kirschnektar 1L</a>
 			<div class="produkt-marke">Softdrinks</div>
 					<div class="produkt-preis">3,50 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 			
 			<div><img class="myLine" src="../IMG/Orangensaft.jpg" height="350px" width="auto">
 			<div class="myLine2">
-					<a href="MalibuView.jsp">Albi - Orangensaft 1L</a>
+					<a>Albi - Orangensaft 1L</a>
 			<div class="produkt-marke">Softdrinks</div>
 					<div class="produkt-preis">3,50 Euro</div>
+					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 				</div>
 				</div>
 			</div>

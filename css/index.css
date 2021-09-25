@@ -38,8 +38,8 @@ h3{
 	justify-content: center; 
 	align-items: center;
 	border-top: .2rem #ff5b5b solid;
-	margin : .5rem;
-	height: 3rem; 
+	margin : 1rem;
+	height: 5rem; 
 	}
 h2{
 	color: #ffffff;
@@ -69,6 +69,7 @@ h4{
     0 0 30px #ff80c0;			
 }
 
+
 .beschreibung{
 	display: flex;
 	justify-content: left; 
@@ -82,19 +83,16 @@ h4{
     0 0 20px #ff80c0,
     0 0 30px #ff80c0;			
 }
-}
 
-.homeseite
-{
-	text-align: center;
-	font: 16px Helvetica;;
-	color: #ffffff;
+.zeiten{
 	display: flex;
 	justify-content: center; 
 	align-items: center;
 	margin : .5rem;
-	height: 13rem; 
+	height: 5rem; 
+    color: #FFFFFF;	
 }
+
 p{
 	text-align: left;
 	font: 16px Helvetica;;
@@ -106,9 +104,8 @@ p{
 	height: 13rem; 
 }
 
-
 .title1 {
-	color: #151414;
+	color: #ffffff;
 	text-align: center;
 	font-size: 50px;
 	font-family: fjalla one;
@@ -116,7 +113,7 @@ p{
 }
 
 .title2 {
-	color: #151414;
+	color: #ffffff;
 	text-align: center;
 	font-size: 19px;
 	font-weight: bold;
@@ -401,6 +398,5 @@ nav ul li {
 	justify-content: left;
 	display: flex;
 	align-items: left;
-	
 }
 

@@ -23,13 +23,12 @@
 	
 		<main class="main">
 		
-			<div class="content">
+			<div>
 			<h3>Herzlich Willkommen! </h3>
-			<p class="homeseite">
-			<br>
-			<br>
+			<p>
+			<br> <br>
 			JITS ist ein Nachtlieferservice, wir liefern dir Getränke, Snacks und bereits zusammengestellte Pakete direkt an die Haustür.  <br><br>
-			Klick auf eine Kategorie z.B "Softdrinks" um unsere Produkte sehen zu können.<br><br> </p>
+			Klick auf eine Kategorie z.B "Softdrinks" um unsere Produkte sehen zu können. </p>
 			
 		<div class="slides">
 			<a href="PaketeView.jsp"><img class="mySlides"
@@ -81,6 +80,15 @@
 			</div>
 			</div>
 		</div>
+		
+		<br><br><br><br><br><br>
+		<h4>Unsere Lieferzeiten</h4>
+		<div class="produkte">
+		<p>Di. & Do. 22:00 - 02:00 Uhr<br><br>
+		Fr. & Sa. 22:00 - 03:00 Uhr<br><br>
+		So.	   	12:00 - 18:00 Uhr</p>
+		</div>
+		
 </main> 
  
 	

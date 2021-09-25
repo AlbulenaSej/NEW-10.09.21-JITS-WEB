@@ -17,19 +17,19 @@
 <main>
 		<h2>Impressum</h2>
 
-		<div>
+		<div class="produkte">
 			<p>Angaben gemaeﬂ ß 5TMG: <br><br>
 					Philipp Fischer,<br>
 					Albulena Sejdijaj<br>
 					Nachtlieferservice<br>
 					Maxstraﬂe 12<br> 67059
-					Ludigshafen am Rhein
-			<p>Kontakt: <br><br>
+					Ludigshafen am Rhein<br><br>
+				Kontakt: <br><br>
 				Telefon: +49 987 654 - 3<br> E-Mail: admin@jits-service.de
 				</p>
-			<br> <br> <br>
 	</div>
 </main>
+<br><br><br><br><br><br>
 <!-- FOOTER -->
 		<jsp:getProperty property="startFooterAsHtml" name="sb" />
 </body>
