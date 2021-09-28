@@ -10,6 +10,11 @@
 <body>
 <jsp:useBean id="sb" class="jits.beans.StartseiteBean"
 		scope="session"></jsp:useBean>
+	<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  Bier ist ab 16! Bei Lieferung wird dein Personalausweis überprüft! <br>
+  <a href = "https://www.kenn-dein-limit.info/" >&#10233; Kenn dein Limit &#10232;</a>
+</div>
 <!-- HEADER -->
 <jsp:getProperty property="headerAsHtml" name="sb" />
 
@@ -24,7 +29,7 @@
 				<a>Beck´s Pils 0,33L</a>
 			<div class="produkt-marke">Bier</div>
 					<div class="produkt-preis">1,70 Euro</div>
-					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+					 <a href="#" data-name="Becks" data-price="1.70" class="add-to-cart btn btn-primary">in den Warenkorb</a>
 				</div>
 				</div>
 					
@@ -33,7 +38,7 @@
 					<a>Corona Extra 0,33L</a>
 			<div class="produkt-marke">Bier</div>
 					<div class="produkt-preis">2,50 Euro</div>
-					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+					 <a href="#" data-name="Corona" data-price="2.50" class="add-to-cart btn btn-primary">in den Warenkorb</a>
 				</div>
 				</div>
 				
@@ -42,7 +47,7 @@
 					<a>Ureich Premium Pils 0,33L</a>
 			<div class="produkt-marke">Bier</div>
 					<div class="produkt-preis">1,70 Euro</div>
-					<button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+					 <a href="#" data-name="Ureich" data-price="1.70" class="add-to-cart btn btn-primary">in den Warenkorb</a>
 				</div>
 				</div>
 				</div>	<br><br>	<br><br>	<br><br>

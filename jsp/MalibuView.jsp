@@ -33,7 +33,7 @@
 			</ul>
 			</div>
 
-		<h4 class="beschreibung">Beschreibeung</h4>
+		<h4 class="beschreibung">Beschreibung</h4>
 		<p> 
 		Seit mehr als 350 Jahren wird auf der karibischen Insel Barbados in der West Indies Rum Distillery ein Rum hergestellt,
 		der sich durch seine besondere Finesse auszeichnet.<br>
@@ -68,7 +68,7 @@
 		
 			<div><a href="CaptainMorgenView.jsp"><img class="myLine" src="../IMG/Captain-Morgan-Gold-Spiced-07L-Tesxtur-300x300.jpg" height="300px" width="auto"></a>
 			<div class="myLine2">
-					<a href="CaptainMorgenView.jsp">Captain Morgen 0,7L</a>
+					<a href="CaptainMorgenView.jsp">Captain Morgan 0,7L</a>
 			<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">17,99 Euro</div>
 				</div>

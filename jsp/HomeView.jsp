@@ -25,7 +25,7 @@
 		
 			<div>
 			<h3>Herzlich Willkommen! </h3>
-			<p>
+			<p class="homeseiter">
 			<br> <br>
 			JITS ist ein Nachtlieferservice, wir liefern dir Getränke, Snacks und bereits zusammengestellte Pakete direkt an die Haustür.  <br><br>
 			Klick auf eine Kategorie z.B "Softdrinks" um unsere Produkte sehen zu können. </p>
@@ -95,7 +95,6 @@
 			<script>
 			var myIndex = 0;
 			carousel1();
-
 			function carousel1() {
 				var i;
 				var x = document.getElementsByClassName("mySlides");
@@ -113,7 +112,6 @@
 		<script>
 			var a = 0;
 			carousel2();
-
 			function carousel2() {
 				var j;
 				var y = document.getElementsByClassName("mySlides2");

@@ -24,7 +24,7 @@
 					des Bundesdatenschutzgesetzes und des rheinland-pfälzischen
 					Landesdatenschutzgesetzes sowie sonstiger datenschutzrechtlicher
 					Bestimmungen ist Philipp Fischer und Albulena Sejdijaj <br>E-Mail:
-					datenschutz@jits.de  
+					datenschutz@jits.de  
 				</p>
 			</div>
 			<p class="title2">II. Kontaktdaten der/des

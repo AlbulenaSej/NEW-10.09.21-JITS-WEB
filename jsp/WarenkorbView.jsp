@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    <%@page import="jits.beans.Warenkorb" %>
+     <%@page import="jits.beans.WarenkorbBean" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,9 +12,17 @@
 </head>
 <jsp:useBean id="sb" class="jits.beans.StartseiteBean"
 		scope="session"></jsp:useBean>
-
+<jsp:useBean id="kb" class="jits.beans.WarenkorbBean"
+		scope="session"></jsp:useBean>
 		
 <body>
+<%
+WarenkorbBean warenkorb = (WarenkorbBean) session.getAttribute("warenkorb"); 
+if (warenkorb == null){
+warenkorb = new WarenkorbBean();
+session.setAttribute("warenkorb", warenkorb);
+}
+%>
 <form action="./WarenkorbAppl.jsp" method="get">
 		
 <!-- HEADER -->
@@ -25,18 +35,18 @@
 	<table border="1">
 
 		<tr>
-			<th>Anzahl </th>
-			<th>Produkt</th>
-			<th>Preis</th>
-			<th>Gesamt</th>
+			<th><h1>Anzahl</h1> </th>
+			<th><h1>Produkt</h1></th>
+			<th><h1>Preis</h1></th>
+			<th><h1>Gesamt</h1></th>
 		</tr>
 		<tr>
 		</tr>
 		<tr>
-            <td> </td>
-			<td> </td>
-			<td>Summe Warenkorb:</td>
-			<td>  EUR </td>
+            <td><h1><%=kb.getMenge()%></h1></td>
+			<td><h1><%=kb.getAname()%></h1></td>
+			<td><h1><%=kb.getPreis()%></h1></td>
+			<td><h1><%=kb.summeBerechnen()%> EUR</h1></td>
 		</tr>
 
 	</table>
@@ -46,11 +56,7 @@
 		value="Jetzt Kaufen">
 	<input type="submit" name="weitereinkaufen"
 		value="Weiter Einkaufen">
-	
-	<input type="submit" name="zurueckzp"
-		value="Zur Startseite">
-		
-		<input type="submit" name="warenkorb"
+		<input type="submit" name="loeschen"
 		value="Warenkorb Loeschen" >
 
 <!-- FOOTER -->

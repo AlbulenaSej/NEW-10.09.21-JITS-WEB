@@ -33,7 +33,7 @@
 			</ul>
 			</div>
 			
-		<h4 class="beschreibung">Beschreibeung</h4>
+		<h4 class="beschreibung">Beschreibung</h4>
 		<p> 
 		Sierra Tequila Silver ist ein geruhter, klarer Tequila. Sein volles, fruchtiges, 
 		frisches und von leichter Chilinote dominiertes Aroma spiegelt sowohl die Tequilana Weber Azul Agave wieder, 
@@ -89,7 +89,7 @@
 
 			<div><a href="CaptainMorgenView.jsp"><img class="myLine" src="../IMG/Sierra Tequilla.jpg" height="300px" width="auto"></a>
 			<div class="myLine2">
-					<a href="CaptainMorgenView.jsp">Captain Morgen 0,7L</a>
+					<a href="CaptainMorgenView.jsp">Captain Morgan 0,7L</a>
 			<div class="produkt-marke">Alkohol</div>
 					<div class="produkt-preis">17,99 Euro</div>
 				</div>
