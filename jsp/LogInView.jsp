@@ -18,12 +18,6 @@ if(member == null){
 member = new Member();
 session.setAttribute("member", member);
 }
-
-MessageBean message = (MessageBean) session.getAttribute("message");
-if (message == null) {
-	message = new MessageBean();
-	session.setAttribute("message", message);
-}
 %>
 
 <jsp:useBean id="sb" class="jits.beans.StartseiteBean"
@@ -32,15 +26,24 @@ if (message == null) {
 <jsp:useBean id="m" class="jits.beans.Member"
 		scope="session"></jsp:useBean>
 		
-		
 <jsp:useBean id="login" class="jits.beans.LoginBean"
 		scope="session"></jsp:useBean>
-		<jsp:useBean id="msg" class="jits.beans.MessageBean"
+		
+<jsp:useBean id="msg" class="jits.beans.MessageBean"
 		scope="session"></jsp:useBean>
 		
 <!-- HEADER -->
 
 <jsp:getProperty property="headerAsHtml" name="sb" />
+
+<jsp:useBean id="message" class="jits.beans.MessageBean"
+		scope="session"></jsp:useBean>
+
+<a href="../jsp/LogInView.jsp"><%=message.getHeaderMessage() %></a>
+ </div>
+ </div>
+ </header>
+
 
 <!-- CONTENT -->
 	<form action ="..\jsp\LoginAppl.jsp" method="post">

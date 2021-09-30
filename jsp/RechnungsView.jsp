@@ -1,16 +1,30 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-     <%@page import ="jits.beans.MessageBean" %>
+     <%@page import="jits.beans.Member" %>
+      <%@page import ="jits.beans.MessageBean" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
 <link rel="stylesheet" type="text/css" href="../css/index.css">
-<title>Insert title here</title>
+<script type="text/javascript"src="../js/Home.js"></script>
+<title>JITS Nachtlieferservice</title>
+
 </head>
 <body>
+<%
+Member member = (Member) session.getAttribute("member"); 
+if (member == null){
+member = new Member();
+session.setAttribute("member", member);
+}
+%>
 <jsp:useBean id="sb" class="jits.beans.StartseiteBean"
 		scope="session"></jsp:useBean>
+		
+<form action="../jsp/HomeAppl.jsp" method="get">
+<jsp:useBean id="m" class = "jits.beans.Member"></jsp:useBean>
+
 <!-- HEADER -->
 <jsp:getProperty property="headerAsHtml" name="sb" />
 <jsp:useBean id="message" class="jits.beans.MessageBean"
@@ -23,23 +37,13 @@
 
 
 <!-- CONTENT -->
-<main>
-		<h2>Impressum</h2>
+	
+<h4>Vielen Dank für Deine Bestellung.
+ Bitte halte Bargeld bei der Lieferung bereit!</h4><br>
+<a href="../jsp/HomeView.jsp"><input type="button" value="Zurück zur Webseite" /></a>
 
-		<div class="produkte">
-			<p>Angaben gemaeß § 5TMG: <br><br>
-					Philipp Fischer,<br>
-					Albulena Sejdijaj<br>
-					Nachtlieferservice<br>
-					Maxstraße 12<br> 67059
-					Ludigshafen am Rhein<br><br>
-				Kontakt: <br><br>
-				Telefon: +49 987 654 - 3<br> E-Mail: admin@jits-service.de
-				</p>
-	</div>
-</main>
-<br><br><br><br><br><br>
 <!-- FOOTER -->
 		<jsp:getProperty property="startFooterAsHtml" name="sb" />
+</form>
 </body>
 </html>

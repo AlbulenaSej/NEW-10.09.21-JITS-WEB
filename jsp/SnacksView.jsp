@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+     <%@page import ="jits.beans.MessageBean" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,9 +13,16 @@
 		scope="session"></jsp:useBean>
 <!-- HEADER -->
 <jsp:getProperty property="headerAsHtml" name="sb" />
+<jsp:useBean id="message" class="jits.beans.MessageBean"
+		scope="session"></jsp:useBean>
+
+<a href="../jsp/LogInView.jsp"><%=message.getHeaderMessage() %></a>
+ </div>
+ </div>
+ </header>
 
 <!-- CONTENT -->
-
+<form action ="..\jsp\SnacksAppl.jsp" method="post">
 <main class="main">
 		<br> <br>
 		<h2>Snacks</h2><br><br>
@@ -24,7 +32,7 @@
 				<a>Funny-frisch Chipsfrisch - Ungarisch</a>
 			<div class="produkt-marke">Snacks</div>
 					<div class="produkt-preis">2,50 Euro</div>
-					 <a href="#" data-name="Chips" data-price="2.50" class="add-to-cart btn btn-primary">in den Warenkorb</a>
+					  <input Type ="submit" name="chips" value="in den Warenkorb">
 				</div>
 				</div>
 					
@@ -33,7 +41,7 @@
 					<a>Snack-Mix</a>
 			<div class="produkt-marke">Snacks</div>
 					<div class="produkt-preis">3,00 Euro</div>
-					 <a href="#" data-name="Snacks" data-price="3.00" class="add-to-cart btn btn-primary">in den Warenkorb</a>
+					  <input Type ="submit" name="mix" value="in den Warenkorb">
 				</div>
 				</div>
 				
@@ -42,7 +50,7 @@
 					<a>Mikrowellen-Popcorn salzig</a>
 			<div class="produkt-marke">Snacks</div>
 					<div class="produkt-preis">1,99 Euro</div>
-					 <a href="#" data-name="Popcornsalzig" data-price="1.99" class="add-to-cart btn btn-primary">in den Warenkorb</a>
+					 <input Type ="submit" name="salzig" value="in den Warenkorb">
 				</div>
 				</div>
 				</div> 
@@ -53,7 +61,7 @@
 					<a>Mikrowellen-Popcorn süß</a>
 			<div class="produkt-marke">Snacks</div>
 					<div class="produkt-preis">1,99 Euro</div>
-					 <a href="#" data-name="Popcornsues" data-price="1.99" class="add-to-cart btn btn-primary">in den Warenkorb</a>
+					 <input Type ="submit" name="suess" value="in den Warenkorb">
 				</div>
 				</div> 
 			
@@ -62,7 +70,7 @@
 					<a>Haribo Goldbären</a>
 			<div class="produkt-marke">Snacks</div>
 					<div class="produkt-preis">1,99 Euro</div>
-					 <a href="#" data-name="Goldbaeren" data-price="1.99" class="add-to-cart btn btn-primary">in den Warenkorb</a>
+					  <input Type ="submit" name="goldbaeren" value="in den Warenkorb">
 				</div>
 				</div>
 				
@@ -71,7 +79,7 @@
 					<a>Haribo Schlümpfe </a>
 			<div class="produkt-marke">Snacks</div>
 					<div class="produkt-preis">1,99 Euro</div>
-					 <a href="#" data-name="Schluempfe" data-price="1.99" class="add-to-cart btn btn-primary">in den Warenkorb</a>
+					 <input Type ="submit" name="schluempfe" value="in den Warenkorb">
 				</div>
 				</div>
 			</div>
@@ -83,7 +91,7 @@
 					<a>Milka - Alpenmilchcreme </a>
 			<div class="produkt-marke">Snacks</div>
 					<div class="produkt-preis">1,99 Euro</div>
-					 <a href="#" data-name="Alpenmilchcreme" data-price="1.99" class="add-to-cart btn btn-primary">in den Warenkorb</a>
+					  <input Type ="submit" name="alpen" value="in den Warenkorb">
 				</div>
 				</div>
 				
@@ -92,7 +100,7 @@
 					<a>Milka - Ganze Haselnüsse  </a>
 			<div class="produkt-marke">Snacks</div>
 					<div class="produkt-preis">1,99 Euro</div>
-					 <a href="#" data-name="Haselnuesse" data-price="1.99" class="add-to-cart btn btn-primary">in den Warenkorb</a>
+					  <input Type ="submit" name="hasel" value="in den Warenkorb">
 				</div>
 				</div>
 				
@@ -101,13 +109,13 @@
 					<a>NicNac´s 125g </a>
 			<div class="produkt-marke">Snacks</div>
 					<div class="produkt-preis">2,99 Euro</div>
-					 <a href="#" data-name="NicNac" data-price="2.99" class="add-to-cart btn btn-primary">in den Warenkorb</a>
+					  <input Type ="submit" name="nicnac" value="in den Warenkorb">
 				</div>
 				</div>
 			</div>
 		
 	</main>
-	
+	</form>
 <!-- FOOTER -->
 		<jsp:getProperty property="startFooterAsHtml" name="sb" />
 </body>

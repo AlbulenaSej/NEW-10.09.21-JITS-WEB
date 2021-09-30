@@ -19,11 +19,6 @@
 			member = new Member();
 			session.setAttribute("member", member);
 		}
-		MessageBean message = (MessageBean) session.getAttribute("message");
-		if(message == null){
-			message = new MessageBean();
-			session.setAttribute("message", message);
-		}
 %>
 
 <jsp:useBean id="sb" class="jits.beans.StartseiteBean"
@@ -37,6 +32,14 @@
 		
 <!-- HEADER -->
 	<jsp:getProperty property="headerAsHtml" name="sb" />
+	<jsp:useBean id="message" class="jits.beans.MessageBean"
+		scope="session"></jsp:useBean>
+
+<a href="../jsp/LogInView.jsp"><%=message.getHeaderMessage() %></a>
+ </div>
+ </div>
+ </header>
+	
 
 <!-- CONTENT -->
 	<form action ="..\jsp\RegAppl.jsp" method="post">

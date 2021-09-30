@@ -2,6 +2,7 @@
     pageEncoding="ISO-8859-1"%>
     <%@page import="jits.beans.Warenkorb" %>
      <%@page import="jits.beans.WarenkorbBean" %>
+      <%@page import ="jits.beans.MessageBean" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,10 +18,10 @@
 		
 <body>
 <%
-WarenkorbBean warenkorb = (WarenkorbBean) session.getAttribute("warenkorb"); 
-if (warenkorb == null){
-warenkorb = new WarenkorbBean();
-session.setAttribute("warenkorb", warenkorb);
+MessageBean message = (MessageBean) session.getAttribute("message");
+if (message == null) {
+	message = new MessageBean();
+	session.setAttribute("message", message);
 }
 %>
 <form action="./WarenkorbAppl.jsp" method="get">
@@ -28,6 +29,10 @@ session.setAttribute("warenkorb", warenkorb);
 <!-- HEADER -->
 
 <jsp:getProperty property="headerAsHtml" name="sb" />
+<a href="../jsp/LogInView.jsp"><%=message.getHeaderMessage() %></a>
+ </div>
+ </div>
+ </header>
 
 <!-- CONTENT -->
 
@@ -42,13 +47,7 @@ session.setAttribute("warenkorb", warenkorb);
 		</tr>
 		<tr>
 		</tr>
-		<tr>
-            <td><h1><%=kb.getMenge()%></h1></td>
-			<td><h1><%=kb.getAname()%></h1></td>
-			<td><h1><%=kb.getPreis()%></h1></td>
-			<td><h1><%=kb.summeBerechnen()%> EUR</h1></td>
-		</tr>
-
+		
 	</table>
 
 	<br>

@@ -8,21 +8,19 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>LoginAappl</title>
 </head>
 <body>
 	<jsp:useBean id="lb" class="jits.beans.LoginBean" scope="session" />
+	<jsp:useBean id="message" class="jits.beans.MessageBean" scope="session" />
+	<jsp:useBean id="warenkorb" class="jits.beans.WarenkorbBean" scope="session" />
 	<%
 	Member member = (Member) session.getAttribute("member");
 	if (member == null) {
 		member = new Member();
 		session.setAttribute("member", member);
 	}
-	MessageBean message = (MessageBean) session.getAttribute("message");
-	if (message == null) {
-		message = new MessageBean();
-		session.setAttribute("message", message);
-	}
+	
 	String passwort = request.getParameter("passwort");
 	String email = request.getParameter("email");
 	String login = request.getParameter("login");
@@ -46,6 +44,7 @@
 			if (loginOk) {
 		lb.setLoggedIn(true);
 		message.setLoginSuccessful();
+		message.setLoggedIn();
 		response.sendRedirect("../jsp/HomeView.jsp?comeFrom=LoginAppl");
 			} else {
 		lb.setLoggedIn(false);
@@ -71,7 +70,9 @@
 		if (passwortOK) {
 			lb.deleteAccount();
 			lb.setLoggedIn(false);
+			warenkorb.deleteWarenkorb(lb.getEmail());
 			message.setAccountGeloescht(email);
+			message.setNotLoggedIn();
 			response.sendRedirect("../jsp/RegView.jsp");
 		}else {
 		message.setLoginWelcome();
