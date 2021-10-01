@@ -40,8 +40,7 @@ public class StartseiteBean {
 				+ "<div>\n"
 				+"<main class='main'><a href=\"../jsp/HomeView.jsp\"><img class='logo-image' src='../IMG/JITSLOGO.png' alt ='logo'/></a>\n" 
 				+"	</div>\n" 
-				+" <div class=\"header-links\">\n"
-				+" 	<a href=\"../jsp/WarenkorbView.jsp\">Warenkorb</a>\n";		
+				+" <div class=\"header-links\">\n";		
 		return header;
 	}
 	

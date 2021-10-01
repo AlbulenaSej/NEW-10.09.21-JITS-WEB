@@ -16,7 +16,6 @@
 <jsp:useBean id="lb" class="jits.beans.LoginBean" scope="session" />
 
 <%
-
 	Member member = (Member) session.getAttribute("member");
 		if(member == null){
 		member = new Member();
@@ -53,19 +52,14 @@
 			member.setPasswort(passwort);
 			member.setEmail(email);
 			member.setHandynummer(handynummer);
-		try{
 			boolean userAngelegt = member.insertMemberIfNotExist();
-		if(userAngelegt){
+		if(userAngelegt == true){
 			message.setRegistrationSuccessful(email);
 			lb.setEmail(email);
 			warenkorb.createWarenkorbTable(lb.getEmail());
 		}
 		else {
 			message.setUserAlreadyExists(email);
-		}
-		}catch(SQLException se){
-			se.printStackTrace();
-			message.setAnyError();
 		}
 			response.sendRedirect("./RegView.jsp");
 		}else if(login.equals("Einloggen")){

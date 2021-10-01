@@ -4,11 +4,12 @@
 <%@page import="jits.beans.Member"%>
 <%@page import="java.sql.SQLException"%>
 <%@page import="jits.beans.MessageBean"%>
+<%@page import="jits.beans.WarenkorbBean"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>LoginAappl</title>
+<title>LoginAppl</title>
 </head>
 <body>
 	<jsp:useBean id="lb" class="jits.beans.LoginBean" scope="session" />
@@ -68,9 +69,9 @@
 		lb.setPasswort(passwort);
 		boolean passwortOK = lb.checkEmailPasswort();
 		if (passwortOK) {
+			warenkorb.deleteWarenkorb(lb.getEmail());
 			lb.deleteAccount();
 			lb.setLoggedIn(false);
-			warenkorb.deleteWarenkorb(lb.getEmail());
 			message.setAccountGeloescht(email);
 			message.setNotLoggedIn();
 			response.sendRedirect("../jsp/RegView.jsp");
